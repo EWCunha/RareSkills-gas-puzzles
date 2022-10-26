@@ -39,7 +39,7 @@ describe("Distribute", async function () {
             acct4.address,
         ]);
 
-        await instance.deployed();
+        await instance.deployed();   
     });
 
     describe("Payable", function () {
