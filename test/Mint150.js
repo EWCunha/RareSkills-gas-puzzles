@@ -64,7 +64,10 @@ describe("Distribute", async function () {
                 .connect(attacker)
                 .deploy(victimToken.address);
 
+
             const receipt = await txn.deployTransaction.wait();
+
+            // const receipt = await txn.wait();
             const gasUsed = receipt.cumulativeGasUsed;
 
             logGasUsage(gasUsed);
