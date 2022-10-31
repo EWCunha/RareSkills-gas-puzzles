@@ -11,5 +11,5 @@ cache
 artifacts
 
 #Problem Solutions
-contracts_optimized
-contracts/contracts_optimized/*
+# contracts_optimized
+# contracts/contracts_optimized/*
