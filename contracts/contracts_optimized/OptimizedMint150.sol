@@ -3,7 +3,7 @@ pragma solidity 0.8.15;
 
 import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 
-import 'hardhat/console.sol';
+// import 'hardhat/console.sol';
 
 // You may not modify this contract
 contract NotRareToken is ERC721 {
